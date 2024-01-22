@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atbash Cipher</title>
+    <script defer src="./atbash.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>ATBASH CIPHER</h1>
+      <h2>Encrypt whatever you want using atbash cipher</h2>
+      <h4>
+        (If you have an encrypted phrase and want to decrypt it, you can use the
+        encrypt button, it works for both purposes.)
+      </h4>
+      <label for="cypher"
+        >Enter a word, numbers, text, or an alphanumeric phrase</label
+      >
+      <input
+        id="stringToEncrypt-input"
+        type="text"
+        placeholder="Enter something to encrypt with atbash"
+      />
+
+      <button id="encrypt-button">Encrypt</button>
+
+      <div class="encrypted-container">
+        <p id="encrypted-text">Encrypted text will appear here</p>
+      </div>
+    </div>
+  </body>
+</html>
