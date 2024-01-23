@@ -33,9 +33,9 @@ For AES: The text to be encrypted must have a length that is a multiple of 16 by
 ```bash
 cd cmd-aes
 go build -o cmd-aes main.go
-echo "text to cipher" | .\cmd-aes -encode
-echo "text to cipher" | .\cmd-aes -encode -key "abracadabrapatas"
-echo "text to cipher" | .\cmd-aes -encode -key "abracadabrapatas" |.\cmd-aes -decode -key "abracadabrapatas"
+echo "text to cipher" | ./cmd-aes -encode
+echo "text to cipher" | ./cmd-aes -encode -key "abracadabrapatas"
+echo "text to cipher" | ./cmd-aes -encode -key "abracadabrapatas" |./cmd-aes -decode -key "abracadabrapatas"
 ```
 
 For AES-GCM: No limitations on length.
@@ -43,9 +43,9 @@ For AES-GCM: No limitations on length.
 ```bash
 cd cmd-aes-gcm
 go build -o cmd-aes-gcm main.go
-echo "text to cipher" | .\cmd-aes-gcm -encode
-echo "text to cipher" | .\cmd-aes-gcm -encode -key "abracadabrapatas"
-echo "text to cipher" | .\cmd-aes-gcm -encode -key "abracadabrapatas" |.\cmd-aes-gcm -decode -key "abracadabrapatas"
+echo "text to cipher" | ./cmd-aes-gcm -encode
+echo "text to cipher" | ./cmd-aes-gcm -encode -key "abracadabrapatas"
+echo "text to cipher" | ./cmd-aes-gcm -encode -key "abracadabrapatas" |./cmd-aes-gcm -decode -key "abracadabrapatas"
 ```
 
 
