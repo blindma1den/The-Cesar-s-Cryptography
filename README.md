@@ -4,7 +4,7 @@ Cifrado Atbash, historia, características y aplicación.
 
 La criptografía se ha convertido en la base de cualquier proceso de seguridad informática y consiste en usar técnicas que permiten alterar y modificar mensajes o archivos con el objetivo de que no puedan ser leídos por todos aquellos usuarios que no estén autorizados para hacerlo. 
 Existen múltiples técnicas para hacer criptografía, entre estas destacan: 
-Cifrado César; Cifrado Vigénere; Cifrado de sustitución simple; Cifrado de Transposición; Cifrado RSA; Cifrado AES; Cifrado DES; Cifrado Blowfish; Cifrado de curva elíptica; Cifrado de Flujo; Cifrado homomórfico; 
+Cifrado César; Cifrado Vigénere; Cifrado de sustitución simple; Cifrado de Transposición; Cifrado RSA; Cifrado AES; Cifrado DES; Cifrado Blowfish; Cifrado de curva elíptica; Cifrado de Flujo; Cifrado homomórfico. 
 En esta investigación desarrollaré el Cifrado Atbash, un método de cifrado por sustitución simple.
 El cifrado Atbash se menciona por primera vez en el libro bíblico de Jeremías, donde se usa para cifrar el nombre de Babel. En este caso, se utilizaba el alfabeto hebreo, donde la primera letra se sustituyó con la última, la segunda con la penúltima, la tercera con la antepenúltima y así sucesivamente, por lo que también se conoce como Cifrado Espejo. 
 Cómo en el alfabeto hebreo no existen las vocales, al aplicar el cifrado Atbash al español, es poco probable que las palabras sean fácilmente pronunciables. Sin embargo, al ser un cifrado de sustitución simple, puede ser fácilmente vulnerado. Por esta razón, la usaré solo para fines educativos. 
