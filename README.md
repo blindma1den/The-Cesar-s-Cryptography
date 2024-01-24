@@ -24,7 +24,7 @@ K=P | X=C
 L=O | Y=B
 M=N | Z=A
 Para realizar el cifrado Atbash, propongo el siguiente código de Python cuyo objetivo es ingresar un texto para ser cifrado utilizando el alfabeto inverso.
-La definición de la función <cifrado_atbash> toma el 'texto' como argumento y debemos definir el alfabeto original, el alfabeto inverso o cifrado y se usa el bucle for iterar sobre cada letra del texto original. Posteriormente se verifica la presencia de las letras en el alfabeto original y su correspondencia en el alfabeto cifrado o inverso yobtenemos el texto cifrado. Debemos tomar en cuenta el uso de mayúsculas y minúsculas para este ejercicio. 
+La definición de la función <cifrado_atbash> toma el 'texto' como argumento y debemos definir el alfabeto original, el alfabeto inverso o cifrado y se usa el bucle for para iterar sobre cada letra del texto original. Posteriormente se verifica la presencia de las letras en el alfabeto original y su correspondencia en el alfabeto cifrado o inverso yo btenemos el texto cifrado. Debemos tomar en cuenta el uso de mayúsculas y minúsculas para este ejercicio. 
 La instrucción es que, por cada letra en el texto original, el programa debe tomar una letra del alfabeto y sustituirla por la letra correspondiente del alfabeto inverso. Una vez realizado el proceso, tendremos el texto cifrado.
  
 Referencias 
