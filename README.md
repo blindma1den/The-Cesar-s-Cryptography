@@ -30,4 +30,4 @@ This function calculates the modular multiplicative inverse of a modulo m. It is
 
 
 ### How to run the program?
-`python affine_cipher.py`
+`python cipheraffine.py`
