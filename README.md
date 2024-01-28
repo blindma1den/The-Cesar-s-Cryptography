@@ -1,2 +1,1 @@
-# The-Cesar-s-Cryptography
-This Python program allows users to encrypt or decrypt messages using the Cesar's cipher. For educational purposes only.
+This Python script demonstrates the functionality of XOR encryption. It allows you to enter a text string and a key, and performs encryption and decryption of the string using the XOR operation with the binary value of each character in the original string and the key. Then, it prints the encrypted string in ASCII code. It is important to note that the first 31 characters in the ASCII code represent non-printable characters, so empty spaces will be displayed in their place.
