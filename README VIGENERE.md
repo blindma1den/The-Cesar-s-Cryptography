@@ -14,5 +14,8 @@ las vulnerabilidades con el cifrado Vernam-Vigenère en 1918, pero el cifrado co
 7. Se obtiene el mensaje cifrado
 8. Para descifrar el mensaje se realiza el proceso inverso
 
-**INSTRUCCIONES PARA CORRER EL PROGRAMA**
-1.  
+**INSTRUCCIONES PARA CORRER EL PROGRAMA DESDE UNA MÁQUINA VIRTUAL KALI LINUX**
+1.  Abrir la terminal y colocar la ruta del directorio en el que se encuentra el archivo
+    cd /rutadeldirectorio
+2.  Ejecutar el archivo de la siguiente manera
+    python nombre_archivo.py
